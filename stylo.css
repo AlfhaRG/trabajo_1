@@ -22,6 +22,7 @@ img {
 table {
     border-collapse: collapse; /* Une bordes */
     width: 100%; /* Anchura */
+    color: rgb(54, 7, 99);/*color a los bordes*/
   }
   
   th, td {
