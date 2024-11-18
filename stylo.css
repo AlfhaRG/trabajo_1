@@ -18,3 +18,31 @@ img {
     color: rgb(105, 71, 185);
     font-size: 20px;
  }
+/*estilo a la tabla*/
+table {
+    border-collapse: collapse; /* Une bordes */
+    width: 100%; /* Anchura */
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* Borde */
+    padding: 10px; /* Relleno */
+    text-align: left; /* Alineación texto */
+  }
+  
+  th {
+    background-color: #f0f0f0; /* Color fondo encabezado */
+  }
+  
+  caption {
+    font-size: 20px; /* Tamaño fuente título */
+    font-weight: bold; /* Negrita título */
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Color fondo filas pares */
+  }
+  
+  tfoot {
+    font-style: italic; /* Cursiva pie de página */
+  }
