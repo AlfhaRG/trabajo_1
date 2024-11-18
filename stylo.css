@@ -25,13 +25,13 @@ table {
   }
   
   th, td {
-    border: 1px solid #ddd; /* Borde */
+    border: 1px solid #2b2323; /* Borde */
     padding: 10px; /* Relleno */
     text-align: left; /* Alineación texto */
   }
   
   th {
-    background-color: #f0f0f0; /* Color fondo encabezado */
+    background-color: #3d2e2e; /* Color fondo encabezado */
   }
   
   caption {
@@ -40,7 +40,7 @@ table {
   }
   
   tbody tr:nth-child(even) {
-    background-color: #f9f9f9; /* Color fondo filas pares */
+    background-color: #413131; /* Color fondo filas pares */
   }
   
   tfoot {
