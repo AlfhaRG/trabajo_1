@@ -47,3 +47,7 @@ table {
   tfoot {
     font-style: italic; /* Cursiva pie de página */
   }
+  div[style] {
+    color: black;
+    color: red !important; /* Sobrescribe el estilo en línea */
+  }
